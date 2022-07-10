@@ -1,0 +1,146 @@
+body{
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    max-width: 100%;
+}
+
+.logo{
+    margin: 50px;
+}
+
+.container{
+    display: flex;
+    margin: 50px;
+}
+
+.container img{
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.container .infos{
+    flex: 1;
+    margin: 75px 0px 0px 30px;
+
+}
+
+.container .infos h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.container .infos p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.container .infos input{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 40%, 49%);
+    font-size: 1rem;
+    font-weight: 400;
+    box-shadow: 3px 3px 15px rgb(70, 69, 69);
+}
+
+.container .infos input:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .social {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+footer .social i{
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer .social i:hover{
+    color: hsl(300, 90%, 53%);
+    border-color: hsl(300, 90%, 53%);
+}
+
+footer .attribution{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #fff;
+}
+
+footer .attribution a{
+    margin-left: 2px;
+    color: #fff;
+}
+
+@media (max-width:375px){
+
+    body {
+        background-size: 100%;
+        height: 100vh;
+    }
+
+    .container{
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .logo{
+        width: 30%;
+        margin: 25px ;
+    }
+
+    .container .infos{
+        margin: 50px 0 0 15px;
+        text-align: center;
+    }
+
+    .container .infos h1{
+        font-size: 1.3rem;
+    }
+
+    .container .infos p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+
+    .container .infos input{
+        margin-top: 25px;
+        padding: 10px 70px;
+    }
+
+    footer .social  {
+        margin: 70px;
+    justify-content: center;  
+    }
+
+    footer .social i{
+    margin-right: 0;
+    margin-left: 20px; 
+    }
+
+    footer .attribution {
+    display: block;    
+    font-size: 0.6rem;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+
+}
