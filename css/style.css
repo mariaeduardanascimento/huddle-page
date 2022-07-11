@@ -90,7 +90,7 @@ footer .attribution a{
     color: #fff;
 }
 
-@media (max-width:375px){
+@media (max-width:425px){
 
     body {
         background-size: 100%;
