@@ -9,7 +9,9 @@ body{
     margin: 50px;
 }
 
-.container{
+.container{ 
+    max-width: 1440px;
+    width: auto;
     display: flex;
     margin: 50px;
 }
@@ -25,7 +27,7 @@ body{
 
 }
 
-.container .infos h1{
+.container .infos h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 2rem;
